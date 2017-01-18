@@ -34,7 +34,7 @@ int main(int argc, char* argv[]) {
 	printf("Enter a vector of %d numbers on one line separated by spaces\n", vLen);
 	scanV(v1, vLen);
 
-        printf("Enter a vector of %d numbers on one line separated by spaces\n", vLen);
+    printf("Enter a vector of %d numbers on one line separated by spaces\n", vLen);
 	scanV(v2, vLen);
 
 	dot1 = dot(v1, v2, vLen);
